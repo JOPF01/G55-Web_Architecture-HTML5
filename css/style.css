@@ -1,0 +1,35 @@
+/*Selector Universal*/
+*{
+    background-color:#ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Manejo de CSS por etiqueta*/
+h1{
+    /*#RRGGBB*/
+    color:#66ccff;
+    font-size: 20px;
+    font-style: italic;
+}
+h6{
+    background-color: black;
+    color:yellow;
+}
+/*Manejo de CSS por identificador*/
+.section_01{
+    color:crimson;
+    text-align: justify;
+    font-size: 20px;
+}
+/*Manejo de CSS por Clase*/
+#parrafo_01 {
+    color:blueviolet;
+    text-align: center;
+}
+/*Manejo por Jerarquia*/
+p strong{
+    color:burlywood;
+}
+/*Manejo de selectores por agrupacion*/
+#section_01, #section_02{
+    color: darkred;
+}
